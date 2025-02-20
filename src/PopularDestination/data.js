@@ -7,7 +7,8 @@ import MustangImg from "../assets/mustang.png";
 const PopularDestinationImage = [
   {
     id: 1,
-    Image: GorkhaImg,
+    Image: LamgungImg,
+    title: "Lamgung, Nepal",
   },
   {
     id: 2,

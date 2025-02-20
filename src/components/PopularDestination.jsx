@@ -18,11 +18,11 @@ const PopularDestination = () => {
         {data.map((destination) => (
           <div key={destination.id} className="relative">
             <img
-              src={destination.Image} // Corrected Image Reference
+              src={destination.Image}
               alt={destination.title}
               className="w-full h-60 object-cover rounded-lg"
             />
-            <p className="absolute bottom-4 left-4 text-white text-lg font-bold bg-black bg-opacity-50 px-3 py-1 rounded">
+            <p className="absolute bottom-4 left-4 text-white text-lg font-bold bg-opacity-50 px-3 py-1 rounded">
               {destination.title}
             </p>
           </div>
