@@ -2,8 +2,8 @@ import React from 'react'
 
 const Herobase = () => {
   return (
-    <div>
-        <div className=' items-center grid justify-around absolute bg-gray-100 px-10'>
+    <div className='  '>
+        <div className=' items-center grid justify-around  bg-gray-100 px-10'>
             <form action=" " className='grid grid-cols-5  items-center py-8 gap-8'>
                 <div className='grid grid-rows-1 w-30  '>
                 <label htmlFor="Duration" >Duration</label>

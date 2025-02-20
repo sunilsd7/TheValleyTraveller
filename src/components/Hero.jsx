@@ -1,7 +1,7 @@
 import React from "react";
 import banner from "../assets/banner.jpg";
 
-import Herobase from "./Herobase";
+
 
 const Hero = () => {
   return (
@@ -13,14 +13,11 @@ const Hero = () => {
      
 
     
-      <div className="absolute inset-0 bg-opacity-50 flex flex-col items-center justify-center text-center">
-        <p className="text-white text-5xl font-bold">EXPLORE THE WORLD</p>
-        <p className="text-white text-3xl font-bold">WITH THE VALLEY</p>
+      <div className="relative inset-0   items-center grid-col-1 top-70 justify-center text-center">
+        <h3 className="text-white text-5xl font-bold">EXPLORE THE WORLD</h3>
+        <h3 className="text-white text-3xl font-bold">WITH THE VALLEY</h3>
       </div>
-
-      <div className="relative top-160 left-20 w-full  px-10">
-        <Herobase />
-      </div>
+       
     </section>
   );
 };

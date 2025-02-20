@@ -3,14 +3,14 @@ import data from '../PopularDestination/data';
 
 const PopularDestination = () => {
   return (
-    <div className="mt-26 px-10">
+    <div className="">
       <div>
-        <p className="font-bold text-3xl underline underline-offset-8 decoration-red-500">
+        <h3 className="font-bold text-3xl underline  decoration-red-500">
           Popular Destinations
-        </p>
-        <p className="font-light mt-4">
+        </h3>
+        <h3 className="font-light mt-5">
           Most popular destinations around the world, from historical places to natural wonders.
-        </p>
+        </h3>
       </div>
 
      
