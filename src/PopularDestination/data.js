@@ -9,27 +9,37 @@ const PopularDestinationImage = [
     id: 1,
     Image: LamgungImg,
     title: "Lamgung, Nepal",
-    days: "10 days",
+    days: "10 destination",
   },
   {
     id: 2,
-    Image: KaskiImg,
+    Image: MustangImg,
+    title: "Mustang Nepal",
+    days: " 12 destination",
   },
   {
     id: 3,
-    Image: LamgungImg,
+    Image: GorkhaImg,
+    title: "Gorkha, Nepal",
+    days: "9 destinations",
   },
   {
     id: 4,
-    Image: MustangImg,
+    Image: LamgungImg2,
+    title: "Lamjung, Nepal",
+    days: "10 destinations",
   },
   {
     id: 5,
-    Image: LamgungImg2,
+    Image: NawalpurImg,
+    title: "Nawalpur, Nepal",
+    days: "5 destinatins",
   },
   {
     id: 6,
-    Image: NawalpurImg,
+    Image: KaskiImg,
+    title: "Kasti, Nepal",
+    days: "9 destinations",
   },
 ];
 
