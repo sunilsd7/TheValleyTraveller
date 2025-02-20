@@ -3,7 +3,7 @@ import LogoImg from "../assets/logo-light .png";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 w-full flex items-center justify-between px-8 py-4 bg-opacity-100 text-white  z-50">
+    <nav className="absolute w-full flex items-center justify-between px-8 py-4 bg-opacity-100 text-white  z-50">
       
       <img src={LogoImg} alt="Logo" className="h-10 ml-4" />
 
