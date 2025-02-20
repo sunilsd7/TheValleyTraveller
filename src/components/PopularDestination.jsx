@@ -22,9 +22,11 @@ const PopularDestination = () => {
               alt={destination.title}
               className="w-full h-60 object-cover rounded-lg"
             />
+          
             <p className="absolute bottom-4 left-4 text-white text-lg font-bold bg-opacity-50 px-3 py-1 rounded">
               {destination.title}
             </p>
+            <p className="absolute bottom-4 left-70 text-white text-lg font-bold bg-opacity-50 px-3 py-1 rounded"> {destination.days}</p>
           </div>
         ))}
       </div>

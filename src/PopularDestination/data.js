@@ -9,6 +9,7 @@ const PopularDestinationImage = [
     id: 1,
     Image: LamgungImg,
     title: "Lamgung, Nepal",
+    days: "10 days",
   },
   {
     id: 2,
